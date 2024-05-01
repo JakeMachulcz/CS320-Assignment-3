@@ -1,0 +1,14 @@
+I used a mySQL database called 'assignment3' with a table called 'Logins' (we made this in Assignment 2), so those are where all the column names in the mySQL querys in the users.js file come from.
+
+make sure in the command prompt to enter: >npm install express
+					  >npm install
+					  >npm install ejs
+					
+In database.js use your mySQL username and password.  If you don't have a password, just remove that line from the code.
+
+
+The 'views' folder is where the html (or in this case ejs) files that show the webpages are:
+	user-list.ejs	     = Home page (localhost:3000/)
+	search-results.ejs   = Search results page (localhost:3000/search)
+	math.ejs	     = Math page with user input fields (localhost:3000/math)
+	math-results.ejs     = Math results page (localhost:3000/math-results)
